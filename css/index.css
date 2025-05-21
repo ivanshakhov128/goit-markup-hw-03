@@ -47,6 +47,12 @@ body {
 
 .header-wrapper {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-wrapper {
+  display: flex;
+  align-items: center;
 }
 .header-list-wrapper {
   display: flex;
@@ -54,7 +60,7 @@ body {
 }
 .address-wrapper {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
 }
 
 .address-list-wrapper {
@@ -80,7 +86,7 @@ body {
   color: #2e2f42;
 }
 
-.header-list-item {
+.header-list {
   padding: 24px 0;
 }
 .header-list-link {
@@ -247,7 +253,6 @@ body {
 .our-team-list {
   display: flex;
   gap: 24px;
-  row-gap: 48px;
 }
 
 .our-team-list-item {
@@ -263,6 +268,7 @@ body {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 
 .portfolio-list-item {
