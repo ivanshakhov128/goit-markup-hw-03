@@ -73,6 +73,7 @@ body {
 }
 
 .header-logo {
+  display: block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -90,6 +91,7 @@ body {
 }
 .header-list-link {
   font-weight: 500;
+  display: block;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -145,9 +147,10 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
-  max-width: 496px;
+  max-width: 600px;
   margin: 0 auto;
   margin-bottom: 48px;
+  text-align: center;
 }
 
 .hero-btn {
@@ -191,6 +194,7 @@ body {
 .features-list {
   display: flex;
   gap: 24px;
+  justify-content: flex-start;
 }
 
 .features-list-item {
@@ -201,13 +205,11 @@ body {
   padding: 32px 0;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  text-align: center;
 }
 
 .portfolio-wrapper {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-right: 16px;
-  padding-left: 16px;
+  padding: 32px 16px;
   border-radius: 0 0 4px 4px;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
@@ -228,7 +230,6 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .subtext {
@@ -236,7 +237,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: center;
 }
 
 .our-team {
@@ -245,7 +245,7 @@ body {
 
 .team {
   text-transform: capitalize;
-  max-width: 162px;
+
   margin: 0 auto;
   margin-bottom: 72px;
 }
@@ -277,7 +277,7 @@ body {
 
 .portfolio {
   text-transform: capitalize;
-  max-width: 218px;
+
   margin: 0 auto;
   margin-bottom: 72px;
 }
