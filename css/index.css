@@ -82,6 +82,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding: 24px 0;
 }
 .header .accent {
   color: #2e2f42;
@@ -120,6 +121,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 24px 0;
 }
 
 .address-list-link:hover {
